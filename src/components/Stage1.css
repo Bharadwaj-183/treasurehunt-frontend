@@ -1,0 +1,139 @@
+#stage1Div {
+  background-image: url("/public/images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 7%;
+  /* display: flex; */
+}
+
+#thinkDiv1 {
+  background-image: url("/public/images/speech2.png");
+  /* -webkit-box-reflect: right; */
+  /* transform: rotateY(180deg); */
+  width: 500px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+  /* background: transparent; */
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+#dialogue {
+  /* position: absolute; */
+  /* z-index: 1; */
+  margin-top: 30%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
+
+#sayingDiv1 {
+  margin-left: 0;
+  display: flex;
+  width: 550px;
+  height: 300px;
+  /* background-color: black; */
+}
+
+#jackStage1Image {
+  margin-left: 0;
+  margin-right: 0;
+  width: 350px;
+  height: 350px;
+}
+
+#help1 {
+  margin-left: 0;
+  position: absolute;
+  left: 350px;
+}
+
+.answerInput {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#wrongAnswer {
+  color: red;
+  font-size: 200;
+}
+
+.jackshint {
+  font-size: small;
+  width: auto;
+  position: absolute;
+  top: 93%;
+  /* left: 75%; */
+  right: 0;
+  bottom: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* WAVE TEXT */
+
+.logo.is-animetion {
+  margin-top: 0.6em;
+}
+
+.logo.is-animetion span {
+  display: inline-block;
+  animation: wave-text 1s ease-in-out infinite;
+}
+
+.logo.is-animetion {
+  :nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  :nth-of-type(2) {
+    animation-delay: 0.1s;
+  }
+  :nth-of-type(3) {
+    animation-delay: 0.2s;
+  }
+  :nth-of-type(4) {
+    animation-delay: 0.3s;
+  }
+  :nth-of-type(5) {
+    animation-delay: 0.4s;
+  }
+  :nth-of-type(6) {
+    animation-delay: 0.5s;
+  }
+  :nth-of-type(7) {
+    animation-delay: 0.6s;
+  }
+  :nth-of-type(8) {
+    animation-delay: 0.7s;
+  }
+  :nth-of-type(9) {
+    animation-delay: 0.8s;
+  }
+  :nth-of-type(10) {
+    animation-delay: 0.9s;
+  }
+}
+
+@keyframes wave-text {
+  00% {
+    transform: translateY(0em);
+  }
+  60% {
+    transform: translateY(-0.2em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}

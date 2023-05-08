@@ -1,0 +1,104 @@
+#stage2Div {
+  background-image: url("/public/images/bg9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 0;
+  /* display: flex; */
+}
+
+.stage2img {
+  width: 150px;
+  height: 150px;
+}
+
+#images3 {
+  /* position: absolute; */
+  width: 500px;
+  left: 15%;
+  top: 20%;
+  border: 2px solid black;
+  margin-bottom: 10%;
+}
+
+#stage2Text {
+  /* display: block; */
+  line-height: 5px;
+}
+
+#stage2Div2 {
+  display: flex;
+  margin-top: 10%;
+  width: auto;
+  margin-left: 2%;
+}
+
+#answerDiv {
+  margin-top: 6%;
+}
+
+#thinkDiv {
+  background-image: url("/public/images/speech2-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 260px;
+  height: 200px;
+
+  text-align: center;
+  justify-content: center;
+
+  padding-top: 2%;
+  /* z-index: 1; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#dialogue {
+  /* position: absolute; */
+  /* z-index: 1; */
+  margin-top: 30%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
+
+#sayingDiv {
+  position: absolute;
+  right: 0;
+  left: 60%;
+  top: 30%;
+  margin-right: 0;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 500px;
+  height: 400px;
+  padding: 0;
+  /* background-color: black; */
+}
+
+#jackStage2Image {
+  margin-left: 150px;
+  margin-top: 8%;
+  margin-right: 0;
+  width: 350px;
+  height: 350px;
+}
+
+#help {
+  /* margin-left: 0; */
+  /* margin-right: 350px; */
+  position: absolute;
+  left: 28%;
+  bottom: 0;
+  /* right: 350px; */
+}

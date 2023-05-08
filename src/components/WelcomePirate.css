@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+#welcomeDiv {
+  background-image: url("/public/images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 5%;
+}
+
+#innerDiv {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 0;
+}
+
+#jack {
+  width: 300px;
+  height: 300px;
+}
+
+#span2 {
+  margin: 8% 2% 3% 2%;
+  color: black;
+}
+
+.move {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*bootsrap buttons */
+.info {
+  border-color: #2196f3;
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196f3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}

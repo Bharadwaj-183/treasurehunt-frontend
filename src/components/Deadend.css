@@ -1,0 +1,18 @@
+#deadend {
+  background-image: url("/public/images/deadend.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}

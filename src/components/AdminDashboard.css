@@ -1,0 +1,17 @@
+#adminDashboard {
+  background-image: url("/public/images/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10%;
+}

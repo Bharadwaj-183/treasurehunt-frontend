@@ -1,0 +1,82 @@
+#stage3Div {
+  background-image: url("/public/images/bg9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 0;
+}
+
+#clickme {
+  font-family: "Courier New", Courier, monospace;
+  color: #3c2317;
+  position: absolute;
+  top: 53%;
+  left: 6%;
+  z-index: 1;
+  font-size: small;
+}
+
+.smalldialogue {
+  font-size: smaller;
+}
+
+#inline {
+  display: inline;
+}
+#textarea {
+  resize: none;
+  width: 300px;
+  height: 60px;
+}
+.move2 {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+#thinkDiv3 {
+  background-image: url("/public/images/speech2.png");
+  /* -webkit-box-reflect: right; */
+  /* transform: rotateY(180deg); */
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+  /* background: transparent; */
+  text-align: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+#sayingDiv3 {
+  margin-top: 0;
+  margin-left: 0;
+  display: flex;
+  width: 550px;
+  height: 280px;
+  /* background-color: black; */
+}

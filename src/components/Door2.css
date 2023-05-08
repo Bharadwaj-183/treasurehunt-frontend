@@ -1,0 +1,28 @@
+#Door1Div {
+  background-image: url("/public/images/cave2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 10%;
+}
+
+.chestlink {
+  width: 300px;
+  height: 300px;
+}
+
+.chestlink:hover {
+  cursor: pointer;
+}

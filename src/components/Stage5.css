@@ -1,0 +1,47 @@
+#stage5Div {
+  background-image: url("/public/images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lilita One";
+  letter-spacing: 1px;
+  padding-top: 7%;
+}
+
+#line {
+  width: 50%;
+  color: black;
+}
+
+#hint {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.redline {
+  margin-top: 0;
+}
+
+#sayingDiv5 {
+  margin-left: 0;
+  display: flex;
+  width: 550px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  /* background-color: black; */
+}
+
+#jackStage5Image {
+  margin-left: 0;
+  margin-right: 0;
+  width: 350px;
+  height: 350px;
+}

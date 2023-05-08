@@ -1,0 +1,94 @@
+#treasureDiv {
+  background-image: url("/public/images/treasure2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  padding-top: 4%;
+  transition-timing-function: ease-in;
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9; */
+/* } */
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  margin: 20px 20px 20px 60px;
+}
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f2f2f2;
+  color: #555;
+}
+th {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+#glitter {
+  background-image: url("/public/images/gif2.gif");
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transition-timing-function: ease-in;
+}
+
+#softskill {
+  font-weight: bold;
+  margin-right: 1%;
+}
+
+.zoom-in-zoom-out {
+  margin: 24px;
+
+  animation: zoom-in-zoom-out 2s ease-out 2 forwards;
+  /* animation-iteration-count: 2; */
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

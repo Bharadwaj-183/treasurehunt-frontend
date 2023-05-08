@@ -1,0 +1,26 @@
+import { useNavigate } from "react-router-dom";
+import "./Door1.css";
+import Chest from "./Chest";
+const Door1 = () => {
+  const navigate = useNavigate();
+
+  const handleChest2 = () => {
+    navigate("/pirate/stage4/emptychest");
+  };
+
+  return (
+    <div id="Door1Div">
+      <a className="chestlink" onClick={handleChest2}>
+        <Chest data={"/images/gif1.gif"} />
+      </a>
+      <a className="chestlink" onClick={handleChest2}>
+        <Chest />
+      </a>
+      <a className="chestlink" onClick={handleChest2}>
+        <Chest />
+      </a>
+    </div>
+  );
+};
+
+export default Door1;
