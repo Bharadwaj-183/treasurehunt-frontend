@@ -13,7 +13,7 @@ import { useState } from "react";
 export const fetchAllUsers = createAsyncThunk(
   "user/fetchAllUsers",
   async () => {
-    const response = await fetch("https://treasurehunt-sigma.vercel.app/demo", {
+    const response = await fetch("https://treasurehunt-back.vercel.app/demo", {
       method: "GET",
     });
     const data = await response.text();

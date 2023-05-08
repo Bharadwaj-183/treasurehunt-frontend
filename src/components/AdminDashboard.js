@@ -15,7 +15,7 @@ const AdminDashboard = () => {
   const [fetched, setFetched] = useState(false);
   const [outerResponse, setOuterResponse] = useState([]);
   const fetchAllUsers = async () => {
-    const response = await fetch("https://treasurehunt-sigma.vercel.app/demo", {
+    const response = await fetch("https://treasurehunt-back.vercel.app/demo", {
       method: "GET",
     });
     const data = await response.text();

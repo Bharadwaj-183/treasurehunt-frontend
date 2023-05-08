@@ -46,7 +46,7 @@ const Stage5 = () => {
         overallPoints += 5 - Math.floor(Math.floor(elapsedTime) / 5);
 
         const response = await fetch(
-          "https://treasurehunt-sigma.vercel.app/demo/update5",
+          "https://treasurehunt-back.vercel.app/demo/update5",
           {
             method: "POST",
             body: JSON.stringify({
