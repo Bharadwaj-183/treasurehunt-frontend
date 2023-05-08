@@ -1,5 +1,4 @@
 {
-  "homepage": "http://Bharadwaj-183.github.io/treasurehunt-frontend",
   "name": "treasurehunt",
   "version": "0.1.0",
   "private": true,
@@ -52,6 +51,6 @@
     "gh-pages": "^5.0.0"
   },
   "engines": {
-    "node": "16.x"
+    "node": "16.18.1"
   }
 }
