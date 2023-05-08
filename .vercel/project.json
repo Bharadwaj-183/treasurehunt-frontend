@@ -1,1 +1,7 @@
-{"orgId":"Irzn9k95utTg4LUb0JxqfF6b","projectId":"prj_XLqHUI8ZqXzuNEeniwnKaaDaudBe"}
+{
+  "orgId": "Irzn9k95utTg4LUb0JxqfF6b",
+  "projectId": "prj_XLqHUI8ZqXzuNEeniwnKaaDaudBe",
+  "functions": {
+    "builder": "@vercel/node@19.8.1"
+  }
+}
