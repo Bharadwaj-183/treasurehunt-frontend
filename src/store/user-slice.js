@@ -1,15 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { useState } from "react";
-// const response = fetch("http://localhost:8080/demo", { method: "GET" }).then(
-//   (response) => response.json()
-// );
-// let data;
-// const extract = async () => {
-//   data = await response.text();
-// };
-// extract();
-// console.log("in userslice", data);
-// let outerResponse;
+
 export const fetchAllUsers = createAsyncThunk(
   "user/fetchAllUsers",
   async () => {
@@ -122,6 +112,7 @@ const userSlice = createSlice({
       const array = [];
       obj.map((item) => {
         array.push(item);
+        return;
       });
       return obj;
     });

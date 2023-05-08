@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { currentActions } from "../store/current-slice";
+// import { currentActions } from "../store/current-slice";
 import { userActions } from "../store/user-slice";
 import { useSelector } from "react-redux";
 import Modal from "./ClueModal/Modal/Modal";
@@ -170,7 +170,12 @@ const Stage1 = () => {
       {wrong && <p id="wrongAnswer">Oops !! wrong answer.</p>}
       <div id="sayingDiv1">
         <span>
-          <img className="move" id="jackStage1Image" src="/images/pic2.webp" />
+          <img
+            className="move"
+            id="jackStage1Image"
+            src="/images/pic2.webp"
+            alt="jacksparrow"
+          />
         </span>
 
         {hint1 && (

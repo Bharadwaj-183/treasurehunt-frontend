@@ -126,7 +126,12 @@ const Stage3 = () => {
               click me{" "}
             </a>
           </span>
-          <img className="move2" id="jackStage1Image" src="/images/pic2.webp" />
+          <img
+            className="move2"
+            id="jackStage1Image"
+            src="/images/pic2.webp"
+            alt="jacksparrow"
+          />
         </span>
 
         {hint3 && (

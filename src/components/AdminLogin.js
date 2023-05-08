@@ -1,10 +1,10 @@
 import "./AdminLogin.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { currentActions } from "../store/current-slice";
+// import { useDispatch } from "react-redux";
+// import { currentActions } from "../store/current-slice";
 const AdminLogin = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const navigate = useNavigate();
   const [adminEmail, setAdminEmail] = useState("");
   const [password, setPassword] = useState("");

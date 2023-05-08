@@ -115,9 +115,9 @@ const Stage2 = () => {
 
       <div id="stage2Div2">
         <div id="images3">
-          <img className="stage2img" src="/images/plus.png" />
-          <img className="stage2img" src="/images/tile.jpg" />
-          <img className="stage2img" src="/images/arr.png" />
+          <img className="stage2img" src="/images/plus.png" alt="sum" />
+          <img className="stage2img" src="/images/tile.jpg" alt="tile" />
+          <img className="stage2img" src="/images/arr.png" alt="reverse" />
         </div>
 
         <div id="answerDiv">
@@ -155,6 +155,7 @@ const Stage2 = () => {
             className="move"
             id="jackStage2Image"
             src="/images/pic2-opp.webp"
+            alt="jacksparrow"
           />
         </span>
       </div>

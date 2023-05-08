@@ -1,17 +1,9 @@
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
-// import { response } from "../../../backend/app";
-let outerResponse;
-const a = {
-  1: "Not bad",
-  2: "Average",
-  3: "Good",
-  4: "Very good",
-  5: "Excellent",
-};
+
 const AdminDashboard = () => {
-  const users = useSelector((state) => state.user);
+  // const users = useSelector((state) => state.user);
   const [fetched, setFetched] = useState(false);
   const [outerResponse, setOuterResponse] = useState([]);
   const fetchAllUsers = async () => {
@@ -33,7 +25,7 @@ const AdminDashboard = () => {
     // });
     // console.log("in useEffect", response);
     return () => {};
-  }, []);
+  }, [fetchAllUsers]);
 
   return (
     <div id="adminDashboard">
@@ -69,7 +61,6 @@ const AdminDashboard = () => {
         </tr>
         {fetched &&
           outerResponse.map((item) => {
-            const o = parseInt(item.overallPoints);
             return (
               <tr>
                 <td>{item.userId}</td>
@@ -103,7 +94,6 @@ const AdminDashboard = () => {
             );
           })}
       </table>
-      {/* {outerResponse} */}
     </div>
   );
 };

@@ -119,7 +119,12 @@ const Stage5 = () => {
       <p id="hint">Hint : Find the source of this page.</p>
       <div id="sayingDiv5">
         <span>
-          <img className="move" id="jackStage5Image" src="/images/pic2.webp" />
+          <img
+            className="move"
+            id="jackStage5Image"
+            src="/images/pic2.webp"
+            alt="jacksparrow"
+          />
         </span>
       </div>
       <p className="jackshint">ps: Jack's hint NOT available for this round</p>

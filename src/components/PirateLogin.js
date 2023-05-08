@@ -11,7 +11,7 @@ const PirateLogin = () => {
   const [userId, setUserId] = useState("");
   const [password, setPassword] = useState("");
   const [nouser, setNouser] = useState(false);
-  const users = useSelector((state) => state.user);
+  // const users = useSelector((state) => state.user);
   const currentUser = useSelector((state) => state.current.currentUser);
   // console.log(users);
   // console.log(users);
