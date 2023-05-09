@@ -1,3 +1,6 @@
+/* Deployed app link I have submitted in google form is an incorrect one. I have sent proper link to   "jobs@elitmus.com" and "noreply@a.elitmusmail.com".
+How ever this document contains the PROPER LINK OF DEPLOYED APP */
+
 Hey There!
 This file gives you all the required Data
 
@@ -16,7 +19,7 @@ user will be given a riddle.
 After 2 minutes of time a hint button will be available which they can use to solve the riddle.
 Answer for round 1 - "treasure"
 
-2ROUND 2
+2.ROUND 2
 user will be given an 3 images . 
 After 2 minutes of time a hint button will be available which they can use to solve the riddle.
 Answer for round 2 - 
@@ -42,7 +45,7 @@ clicking that link is the answer.
 user is given with multiple doors. user should find the right door among them and also right chest in that door. Remaining doors will be DEADENDS.
 
 upon finding right chest , user is asked to say his best friend's name. 
-It i nothing but "jack".
+It is nothing but "jack".
 
 
 5. ROUND 5 
@@ -82,13 +85,22 @@ ADDITIONAL FEATURES:
 
 Above additional features are implemented
 
-
+LINKS:
 GITHUB repository link :https://github.com/Bharadwaj-183/treasurehunt-frontend
-Netlify Link of hosted app : https://645993d31527c6000811545b--dapper-torte-0c2b35.netlify.app/
-vercel link of hosted backend : https://treasurehunt-back.vercel.app/demo
+Netlify Link of HOSTED APP : https://64598e8a10b60f5323ed0fcc--dapper-torte-0c2b35.netlify.app
+vercel link of hosted BACKEND : https://treasurehunt-back.vercel.app/demo
+Working app VIDEO RECORDING : https://drive.google.com/file/d/1mde5m7izQbrPEGNbXJeXf55PXIpWl8tV/view?usp=sharing
 
 
-ADMIN EMAIL AND PASSWORD:
+ADMIN EMAIL :
 ->bharadwajkvsm@gmail.com
+ADMIN PASSWORD :
 ->Bharadwaj183
 
+A brief note on the logic used to identify if a person has a soft-skill:
+
+*Solving riddles definitely needs CRITICAL THINKING. which is the first round of the app.
+*In Second round the hints provided are not direct clues. They are PARTS OS SPEECH which when applied to given images gives the answer.
+*Third round is deciphering a cipher text. which needs PROBLEM SOLVING ABILITY.
+*Fourth round is patiently finding the right door. which assesses the PERSEVERANCE of user.
+*Fifth round is finding that they need to rearrange all the clues. which tests their ATTENTION TO DETAIL. 
