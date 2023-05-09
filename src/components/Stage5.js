@@ -116,7 +116,9 @@ const Stage5 = () => {
         </p>
       )}
       <hr id="line" />
-      <p id="hint">Hint : Find the source of this page.</p>
+      <p id="hint">
+        <pre>Hint : {"<- + <- + <- + <-"} </pre>
+      </p>
       <div id="sayingDiv5">
         <span>
           <img className="move" id="jackStage5Image" src="/images/pic2.webp" />
