@@ -103,7 +103,7 @@ LINKS:
 GITHUB repository link :https://github.com/Bharadwaj-183/treasurehunt-frontend
 
 
-Netlify Link of HOSTED APP : https://64598e8a10b60f5323ed0fcc--dapper-torte-0c2b35.netlify.app
+Netlify Link of HOSTED APP : https://treasurehunt-frontend.vercel.app/
 
 
 vercel link of hosted BACKEND : https://treasurehunt-back.vercel.app/demo
