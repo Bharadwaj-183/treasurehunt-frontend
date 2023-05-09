@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+Hey There!
+This file gives you all the required Data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SOFT SKILLS ASSESSED (using subtle methods):
+Round 1 requires user to solve riddle. which assesses the CRITICAL THINKING of user.
+Round 2 requires user to decode some images and find the word behind it(ELITMUS). The hints in that round were given as 
+parts of speech . which assesses the verbal ability of user.
+Round 3 requires user to decipher a ceaser text. which assess PROBLEM SOLVING SKILLS of user.
+Round 4  requires user to find a right door and a right chest in it . For this the user needs to check all the doors and chests. 
+which assess the PERSEVERANCE of user.
+Round 5 requires user to interpret some symbols and accordingly join all the clues they got. which assess their ATTENTION for DETAIL.
 
-## Available Scripts
+POSSIBLE WAYS TO SOLVE PUZZLE:
+1.ROUND 1 
+user will be given a riddle. 
+After 2 minutes of time a hint button will be available which they can use to solve the riddle.
+Answer for round 1 - "treasure"
 
-In the project directory, you can run:
+2ROUND 2
+user will be given an 3 images . 
+After 2 minutes of time a hint button will be available which they can use to solve the riddle.
+Answer for round 2 - 
+1st image means "sum"
+2nd image means "tile"
+3rd image means reversing them 
+that results in "elitmus"
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3.ROUND 3
+user will be given a ceaser text. user should guess the shift and decipher it. 
+the shift is "24" and it is clued in with an "X" moving.
+After 2 minutes of time a hint button will be available which they can use to decipher the text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Answer for round 3- "position of x" => 24. 
+so shift the ceaser text by 24 letters.
+then user will get a sentance saying "I don't know why but jack's hat is suspicious."
 
-### `npm test`
+then if user look at jack's hat there will be a link to click.
+clicking that link is the answer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. ROUND 4
+user is given with multiple doors. user should find the right door among them and also right chest in that door. Remaining doors will be DEADENDS.
 
-### `npm run build`
+upon finding right chest , user is asked to say his best friend's name. 
+It i nothing but "jack".
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. ROUND 5 
+user needs to rearrange all the clues they got unit now.
+they got => AM , AD ,AG , RACS.
+hint is given as <- + <- + <- + <- . 
+Arranging the in that manner gives word "madagascar".
+answer is "madagascar".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+STEPS TO SETUP :
+The project is perfectly deployed . no set up needed. 
+Backend is deployed at Vercel.
+Frontend is deployed at Netlify.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you want local setup ,then download frontend code from "treasurehunt-frontend" , backend code from "treasurehunt-backend" repositories.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+IMPLEMENTED FEATURES:
+1.Anyone with an email address can create an Id and password to participate in the game
+2.The puzzle must contain
+  Minimum 5 clues
+  Minimum 2 dead-ends
+  Minimum 1 solution 
+3.All the progress / user data (eg - time taken by each user for every step,  solution accuracy, etc.) depending on your puzzle requirements should be stored  for every user
+4.On refreshing, from either browser or website, the puzzle should start from  the same step or give the user an option to restart.
+ If user want to continue on same stage , he should click cancel on prompt.
+ If user wants to restart the he should navigate back to signup page and start.
+5.A dashboard for the admin where the progress of all the users can be tracked &  analyzed
 
-## Learn More
+All the above features are implemented.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ADDITIONAL FEATURES:
+1.User analytics (eg - time taken by each user for every step, solution accuracy, etc.) depending on your puzzle should be stored and shown in the admin dashboard 
+2.Data analysis using different graphs or tables. A table showing time taken ,points scored at each level by user is displayed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Above additional features are implemented
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GITHUB repository link :https://github.com/Bharadwaj-183/treasurehunt-frontend
+Netlify Link of hosted app : https://645993d31527c6000811545b--dapper-torte-0c2b35.netlify.app/
+vercel link of hosted backend : https://treasurehunt-back.vercel.app/demo
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ADMIN EMAIL AND PASSWORD:
+->bharadwajkvsm@gmail.com
+->Bharadwaj183
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
