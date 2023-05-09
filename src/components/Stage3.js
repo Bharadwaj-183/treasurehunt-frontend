@@ -114,8 +114,8 @@ const Stage3 = () => {
         {/* G bmlr ilmu ufw zsr hyai'q fyr gq qsqngagmsq. */}
       </i>
       <p>
-        what is{" "}
-        <a href="https://cryptii.com/pipes/caesar-cipher">ceaser cipher</a>
+        Ceaser text is a text where each letter is shifted forward by specific
+        number.
       </p>
       <p></p>
       <textarea id="textarea" placeholder="workspace"></textarea>
