@@ -1,16 +1,17 @@
 import "./Home.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useSound from "use-sound";
 // import url from "../../public/audios/start.mp3";
 // import ReactModal from "./ReactModal";
-
+import MyModal from "./ClueModal/MyModal";
+import Door from "./Door";
 const Home = () => {
   // const startAudio = process.env.PUBLIC_URL + "/audios/start.mp3";
   const startAudio = process.env.PUBLIC_URL + "/audios/Sneaky-Snitch.mp3";
   const [playStart] = useSound(startAudio);
 
-  // const [confirmedLeave, setConfirmedLeave] = useState(false);
+  const [confirmedLeave, setConfirmedLeave] = useState(false);
 
   // useEffect(() => {
   //   const handleBeforeUnload = (event) => {

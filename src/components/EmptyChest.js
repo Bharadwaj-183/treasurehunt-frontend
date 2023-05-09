@@ -2,7 +2,7 @@ import "./EmptyChest.css";
 const EmptyChest = () => {
   return (
     <div id="emptychest">
-      <img src="/images/gif1.gif" alt="gif" />
+      <img src="/images/gif1.gif" />
     </div>
   );
 };

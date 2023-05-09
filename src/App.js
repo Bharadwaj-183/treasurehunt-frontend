@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import { useState } from "react";
-
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Redirect } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import PirateLogin from "./components/PirateLogin";
@@ -9,8 +11,8 @@ import PirateSignup from "./components/PirateSignup";
 import WelcomePirate from "./components/WelcomePirate";
 import Error from "./components/Error";
 import AdminDashboard from "./components/AdminDashboard";
-// import Modal from "./components/ClueModal/Modal/Modal";
-// import Backdrop from "./components/ClueModal/Backdrop/Backdrop";
+import Modal from "./components/ClueModal/Modal/Modal";
+import Backdrop from "./components/ClueModal/Backdrop/Backdrop";
 
 import Stage1 from "./components/Stage1";
 import Stage2 from "./components/Stage2";
@@ -28,7 +30,7 @@ import CorrectChest from "./components/CorrectChest";
 import Treasure from "./components/Treasure";
 
 function App() {
-  // const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   // function confirmExit() {
   //   alert("exiting");
@@ -76,7 +78,70 @@ function App() {
   //   };
   // }, []);
 
-  // const closeModal = () => {};
+  const closeModal = () => {};
+  // const handleReload = () => {
+  //   window.location.href = "localhost:3000/pirate";
+  // };
+
+  // useEffect(() => {
+  //   const handleBeforeUnload = (event) => {
+  //     event.preventDefault();
+  //     event.returnValue = "";
+  //   };
+  //   window.addEventListener("beforeunload", handleBeforeUnload);
+  //   window.addEventListener("pagehide", handleUnload);
+  //   return () => {
+  //     window.removeEventListener("beforeunload", handleBeforeUnload);
+  //     window.removeEventListener("pagehide", handleUnload);
+  //   };
+  // }, []);
+
+  // const handleUnload = (event) => {
+  //   alert("handle unload called");
+  //   const confirmMessage =
+  //     "Your progress will be lost. Are you sure you want to leave?";
+  //   if (!window.confirm(confirmMessage)) {
+  //     event.preventDefault();
+  //   } else {
+  //     window.location.href = "localhost:3000";
+  //   }
+  // };
+
+  // const history = useHistory();
+
+  // useEffect(() => {
+  //   const handleRefresh = (e) => {
+  //     e.preventDefault();
+  //     e.returnValue = ""; // required for Chrome
+  //     <Redirect to="/pirate" />; // redirect to home page
+  //   };
+
+  //   window.addEventListener("beforeunload", handleRefresh);
+
+  //   return () => {
+  //     window.removeEventListener("beforeunload", handleRefresh);
+  //   };
+  // }, []);
+
+  // useEffect(() => {
+  //   const handleRefresh = (e) => {
+  //     e.preventDefault();
+  //     e.returnValue = ""; // required for Chrome
+  //     history.push("/"); // redirect to home page
+  //   };
+
+  //   window.addEventListener("beforeunload", handleRefresh);
+
+  //   return () => {
+  //     window.removeEventListener("beforeunload", handleRefresh);
+  //   };
+  // }, [history]);
+
+  // useEffect(() => {
+
+  //   return () => {
+  //   };
+  // }, []);
 
   const users = [{ userId: "bharadwaj", password: "1234567" }];
   const router = createBrowserRouter([
@@ -102,7 +167,12 @@ function App() {
     { path: "/pirate/success", element: <Treasure /> },
   ]);
 
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <RouterProvider router={router}>
+      <Modal show={modalIsOpen} closed={closeModal} data={"AM"} />
+      <Backdrop />
+    </RouterProvider>
+  );
 }
 
 export default App;

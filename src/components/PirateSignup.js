@@ -18,7 +18,7 @@ const PirateSignup = () => {
     // users.push({ userId, password });
     const postData = async () => {
       const response = await fetch(
-        "https://treasurehunt-back.vercel.app/demo",
+        "https://treasurehunt-sigma.vercel.app/demo",
         {
           method: "POST",
           body: JSON.stringify({
@@ -63,7 +63,7 @@ const PirateSignup = () => {
         overallPoints: 0,
       })
     );
-    console.log(users);
+    console.log("users after setting", users);
     navigate("/pirate");
   };
   return (

@@ -31,7 +31,7 @@ const CorrectChest = () => {
     const stage4Points = 5 - Math.floor(Math.floor(elapsedTime) / 5);
 
     const response = await fetch(
-      "https://treasurehunt-back.vercel.app/demo/update4",
+      "https://treasurehunt-sigma.vercel.app/demo/update4",
       {
         method: "POST",
         body: JSON.stringify({

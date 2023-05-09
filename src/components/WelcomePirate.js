@@ -12,12 +12,7 @@ const WelcomePirate = () => {
       <h1>Welcome Pirate!!</h1>
       <div id="innerDiv">
         <span>
-          <img
-            className="move"
-            id="jack"
-            src="/images/pic2.webp"
-            alt="jacksparrow"
-          />
+          <img className="move" id="jack" src="/images/pic2.webp" />
         </span>
 
         <span id="span2">

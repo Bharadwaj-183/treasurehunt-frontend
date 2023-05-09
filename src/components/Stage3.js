@@ -42,7 +42,7 @@ const Stage3 = () => {
     const stage3Points = 5 - Math.floor(Math.floor(elapsedTime) / 5);
 
     const response = await fetch(
-      "https://treasurehunt-back.vercel.app/demo/update3",
+      "https://treasurehunt-sigma.vercel.app/demo/update3",
       {
         method: "POST",
         body: JSON.stringify({
@@ -126,12 +126,7 @@ const Stage3 = () => {
               click me{" "}
             </a>
           </span>
-          <img
-            className="move2"
-            id="jackStage1Image"
-            src="/images/pic2.webp"
-            alt="jacksparrow"
-          />
+          <img className="move2" id="jackStage1Image" src="/images/pic2.webp" />
         </span>
 
         {hint3 && (

@@ -1,13 +1,21 @@
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
-
+// import { response } from "../../../backend/app";
+let outerResponse;
+const a = {
+  1: "Not bad",
+  2: "Average",
+  3: "Good",
+  4: "Very good",
+  5: "Excellent",
+};
 const AdminDashboard = () => {
-  // const users = useSelector((state) => state.user);
+  const users = useSelector((state) => state.user);
   const [fetched, setFetched] = useState(false);
   const [outerResponse, setOuterResponse] = useState([]);
   const fetchAllUsers = async () => {
-    const response = await fetch("https://treasurehunt-back.vercel.app/demo", {
+    const response = await fetch("https://treasurehunt-sigma.vercel.app/demo", {
       method: "GET",
     });
     const data = await response.text();
@@ -25,7 +33,7 @@ const AdminDashboard = () => {
     // });
     // console.log("in useEffect", response);
     return () => {};
-  }, [fetchAllUsers]);
+  }, []);
 
   return (
     <div id="adminDashboard">
@@ -58,9 +66,11 @@ const AdminDashboard = () => {
             <br />
             Time , points
           </th>
+          <th>Remarks</th>
         </tr>
         {fetched &&
           outerResponse.map((item) => {
+            const o = parseInt(item.overallPoints);
             return (
               <tr>
                 <td>{item.userId}</td>
@@ -90,10 +100,12 @@ const AdminDashboard = () => {
                   )}
                   , {item.overallPoints}
                 </td>
+                <td>{a[o]}</td>
               </tr>
             );
           })}
       </table>
+      {/* {outerResponse} */}
     </div>
   );
 };

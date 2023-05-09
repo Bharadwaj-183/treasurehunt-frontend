@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-// import { currentActions } from "../store/current-slice";
+import { currentActions } from "../store/current-slice";
 import { userActions } from "../store/user-slice";
 import { useSelector } from "react-redux";
 import Modal from "./ClueModal/Modal/Modal";
@@ -81,7 +81,7 @@ const Stage1 = () => {
     const stage1Points = 5 - Math.floor(Math.floor(elapsedTime) / 5);
 
     const response = await fetch(
-      "https://treasurehunt-back.vercel.app/demo/update1",
+      "https://treasurehunt-sigma.vercel.app/demo/update1",
       {
         method: "POST",
         body: JSON.stringify({
@@ -170,12 +170,7 @@ const Stage1 = () => {
       {wrong && <p id="wrongAnswer">Oops !! wrong answer.</p>}
       <div id="sayingDiv1">
         <span>
-          <img
-            className="move"
-            id="jackStage1Image"
-            src="/images/pic2.webp"
-            alt="jacksparrow"
-          />
+          <img className="move" id="jackStage1Image" src="/images/pic2.webp" />
         </span>
 
         {hint1 && (
