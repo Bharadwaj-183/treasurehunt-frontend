@@ -42,11 +42,11 @@ that results in "elitmus"
 
 user will be given a ceaser text. user should guess the shift and decipher it. 
 the shift is "24" and it is clued in with an "X" moving.
-After 2 minutes of time a hint button will be available which they can use to decipher the text.
+After 2 minutes of time a hint button will also  be available which they can use to decipher the text.
 
 Answer for round 3- "position of x" => 24. 
 so shift the ceaser text by 24 letters.
-then user will get a sentance saying "I don't know why but jack's hat is suspicious."
+afer 2 mins user will get a hint saying "I don't know why but jack's hat is suspicious."
 
 then if user look at jack's hat there will be a link to click.
 clicking that link is the answer.
@@ -71,8 +71,11 @@ answer is "madagascar".
 STEPS TO SETUP :
 
 The project is perfectly deployed . no set up needed. 
+
 Backend is deployed at Vercel.
+
 Frontend is deployed at Netlify.
+
 
 If you want local setup ,then download frontend code from "treasurehunt-frontend" , backend code from "treasurehunt-backend" repositories.
 
@@ -81,25 +84,37 @@ If you want local setup ,then download frontend code from "treasurehunt-frontend
 IMPLEMENTED FEATURES:
 
 1.Anyone with an email address can create an Id and password to participate in the game
+
 2.The puzzle must contain
   Minimum 5 clues
+  
   Minimum 2 dead-ends
+  
   Minimum 1 solution 
+  
+  
 3.All the progress / user data (eg - time taken by each user for every step,  solution accuracy, etc.) depending on your puzzle requirements should be stored  for every user
+
 4.On refreshing, from either browser or website, the puzzle should start from  the same step or give the user an option to restart.
+
  If user want to continue on same stage , he should click cancel on prompt.
+ 
  If user wants to restart the he should navigate back to signup page and start.
+ 
 5.A dashboard for the admin where the progress of all the users can be tracked &  analyzed
 
 All the above features are implemented.
 
 ADDITIONAL FEATURES:
+
 1.User analytics (eg - time taken by each user for every step, solution accuracy, etc.) depending on your puzzle should be stored and shown in the admin dashboard 
+
 2.Data analysis using different graphs or tables. A table showing time taken ,points scored at each level by user is displayed.
 
 Above additional features are implemented
 
 LINKS:
+
 GITHUB repository link :https://github.com/Bharadwaj-183/treasurehunt-frontend
 
 
@@ -113,11 +128,11 @@ Working app VIDEO RECORDING : https://drive.google.com/file/d/1mde5m7izQbrPEGNbX
 
 
 ADMIN EMAIL :
-->bharadwajkvsm@gmail.com
+bharadwajkvsm@gmail.com
 
 
 ADMIN PASSWORD :
-->Bharadwaj183
+Bharadwaj183
 
 A brief note on the logic used to identify if a person has a soft-skill:
 
