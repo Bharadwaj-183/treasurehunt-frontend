@@ -117,7 +117,7 @@ LINKS:
 GITHUB repository link :https://github.com/Bharadwaj-183/treasurehunt-frontend
 
 
-Netlify Link of HOSTED APP : https://64598e8a10b60f5323ed0fcc--dapper-torte-0c2b35.netlify.app
+Netlify Link of HOSTED APP : https://the-treasure-hunt.netlify.app/
 
 
 vercel link of hosted BACKEND : https://treasurehunt-back.vercel.app/demo
@@ -145,6 +145,6 @@ A brief note on the logic used to identify if a person has a soft-skill:
 
 *Fifth round is finding that they need to rearrange all the clues. which tests their ATTENTION TO DETAIL. 
 
-/* I want to share that there is a small bug in the application , that the app becomes unresponsive when the page is reloaded. The app worked completely fine at localhost . I dont know why ,  but the  error showed up after deployment even after certain changes and re-deployments (even in different platforms) the bug persisted. Apparently even though I am using MongoDB backend , reloading the page is causing some loss of state of app . I am trying my best to fix the bug at the earliest. */
+
 
 Thanking you :)
