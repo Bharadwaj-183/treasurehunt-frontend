@@ -1,8 +1,7 @@
-/* Deployed app link I have submitted in google form is an incorrect one. I have sent proper link to   "jobs@elitmus.com" and "noreply@a.elitmusmail.com".
-How ever this document contains the PROPER LINK OF DEPLOYED APP */
+
 
 Hey There!
-This file gives you all the required Data
+This file explains you the project
 
 SOFT SKILLS ASSESSED (using subtle methods):
 
